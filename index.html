@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>INDICADOR ECONÓMICO</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<div id="logo">
+		  <img src="img/logo.jpg" alt="logo empresa">
+		</div>
+		<nav>
+	
+	
+		  <ul>
+	
+			<div class="navegacion">
+	
+			  <li><a href="ensayo.html" id="efectonav">Inicio</a></li>
+			  <li><a href="galeria.html" id="efectonav">Galeria</a></li>
+			  <li><a href="iniciosesion.html" id="efectonav">Iniciar sesion</a></li>
+			  <li><a href="formulario.html" id="efectonav">Registrarse</a></li>
+			  <li><a href="index.html"id="efectonav">Indices economicos</a></li>
+			</div>
+		  </ul>
+		</nav>
+	
+	  </header>
+	<div class="container">
+		<div class="row">
+			<div class="pesos">
+			<h1>VALOR DIARIO</h1>
+				<table class="table current__table" id="">
+					<tr class="table__head">
+						<td></td>
+						<td><h3>PESOS CHILENOS</h3></td>
+					</tr>
+					<tr>
+						<td>$ &nbsp;dolar</td>
+						<td id="usd_current"></td>
+					</tr>
+					<tr>
+						<td>€ &nbsp;euro</td>
+						<td id="euro_current"></td>
+					</tr>
+					<tr>
+						<td>UF</td>
+						<td id="uf_current"></td>
+					</tr>
+					<tr>
+						<td>UTM</td>
+						<td id="utm_current"></td>
+					</tr>
+				</table>
+			</div>
+
+
+			<div class="col-md-offset-1 col-md-4">
+				<div id="conversion-clp">
+					<form class="form-group">
+						<h3>CONSULTA EN PESOS CHILENOS</h3>
+						<input type="number" name="quantity" id="clp-value">
+		  				<input type="submit" value="CONVERTIR" id='clp-submit'>
+	  				</form>
+	  				<table class="table">
+	  					<tr>
+	  						<td>dolares:</td>
+	  						<td id="clp-usd"></td>
+	  					</tr>
+	  					<tr>
+	  						<td>euros:</td>
+	  						<td id="clp-euro"></td>
+	  					</tr>
+	  				</table>
+  				</div>
+  				
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

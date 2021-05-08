@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <!-- hoja estilo-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- script carrusel -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+          <img src="img/logo.jpg" alt="logo empresa">
+        </div>
+        <nav>
+    
+    
+          <ul>
+    
+            <div class="navegacion">
+    
+              <li><a href="ensayo.html" id="efectonav">Inicio</a></li>
+              <li><a href="galeria.html" id="efectonav">Galeria</a></li>
+              <li><a href="iniciosesion.html" id="efectonav">Iniciar sesion</a></li>
+              <li><a href="formulario.html" id="efectonav">Registrarse</a></li>
+              <li><a href="index.html"id="efectonav">Indices economicos</a></li>
+            </div>
+          </ul>
+        </nav>
+    
+      </header>
+
+
+    <form onsubmit="return validarForm()" id="contacto-frm" name="contacto_frm" action="" method="get"
+        enctype="application/x-www-form-urlencoded">
+
+        <fieldset class="content__formulary">
+
+            <div class="horizontal__block">
+                <label class="horizontal__block-item" for="nombre"> Nombre:</label>
+                <input class="horizontal__block-item" type="text" id="nombre" placeholder="ingrese nombre" name="nombre"
+                    class="cambio" required />
+            </div>
+
+
+
+            <div class="horizontal__block">
+                <label class="horizontal__block-item" for="email"> Email:</label>
+                <input class="horizontal__block-item" type="email" id="email" placeholder="ingrese email"
+                    name="email_txt" required />
+            </div>
+
+
+
+
+            <div class="horizontal__block">
+                <label class="horizontal__block-item" for="contrasena"> Contraseña:</label>
+                <input class="horizontal__block-item" type="text" id="contrasena" placeholder="ingrese contraseña"
+                    name="contrasena_txt" required />
+            </div>
+
+
+
+            <div class="horizontal__block horizontal__block-buttons">
+                <input type="submit" id="enviar" class="cambio" name="enviar_btn" value="Enviar" />
+                <input type="button" id="limpiar" class="cambio" name="limpiar_btn" value="Limpiar" />
+            </div>
+        </fieldset>
+    </form>
+    <footer id class="pie">
+
+        <a href="contacto.html">CONTACTO</a>
+        <p>BUSCANOS EN RRSS</p>
+    
+    
+      </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <!-- hoja estilo-->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!-- script carrusel -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <img src="img/logo.jpg" alt="logo empresa">
+    </div>
+    <nav>
+
+
+      <ul>
+
+        <div class="navegacion">
+
+          <li><a href="ensayo.html" id="efectonav">Inicio</a></li>
+          <li><a href="galeria.html" id="efectonav">Galeria</a></li>
+          <li><a href="iniciosesion.html" id="efectonav">Iniciar sesion</a></li>
+          <li><a href="formulario.html" id="efectonav">Registrarse</a></li>
+          <li><a href="index.html"id="efectonav">Indices economicos</a></li>
+        </div>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="cuerpo">
+    <div class="slider owl-carousel">
+
+      <div class="carta">
+        <div class="imgcarta">
+          <img src="img/incendio.jpg" alt="">
+        </div>
+        <div class="contenidocarta">
+          <div class="titulo">
+            CALIFORNIA EN LLAMAS</div>
+          <div class="subtitulo">
+            INTERNACIONAL</div>
+
+          <div class="boton">
+            <button><a href="incendio.html">LEER</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="carta">
+        <div class="imgcarta">
+          <img src="img/noticias.jpg" alt="">
+        </div>
+        <div class="contenidocarta">
+          <div class="titulo">
+            NIÑOS SE ESCAPAN DE SENAME</div>
+          <div class="subtitulo">
+            NACIONAL</div>
+
+          <div class="boton">
+            <button><a href="ninos.html">LEER</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carta">
+        <div class="imgcarta">
+          <img src="img/estres.jpg" alt="">
+        </div>
+        <div class="contenidocarta">
+          <div class="titulo">
+            ESTRES EN CUARENTENA</div>
+          <div class="subtitulo">
+            ESTILO DE VIDA</div>
+
+          <div class="boton">
+            <button><a href="estres.html">LEER</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="carta">
+        <div class="imgcarta">
+          <img src="img/artuxis.jpg" alt="">
+        </div>
+        <div class="contenidocarta">
+          <div class="titulo">
+            CHILENOS EN MILAN</div>
+          <div class="subtitulo">
+            DEPORTES</div>
+
+          <div class="boton">
+            <button><a href="artuxis.html">LEER</a></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $(".slider").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000, //2000ms = 2s;
+      autoplayHoverPause: true,
+    });
+  </script>
+
+
+
+
+
+  <footer id class="pie">
+
+    <a href="contacto.html">CONTACTO</a>
+    <p>BUSCANOS EN RRSS</p>
+
+
+  </footer>
+
+</body>
+
+</html>
